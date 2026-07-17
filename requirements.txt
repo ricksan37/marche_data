@@ -1,0 +1,8 @@
+# Dépendances — Observatoire du Marché Data France (Phase 1, ingestion)
+# Installation :  pip install -r requirements.txt
+
+requests>=2.31,<3        # appels HTTP à l'API France Travail
+python-dotenv>=1.0,<2    # chargement des identifiants depuis le .env
+
+# Pour figer les versions exactes de ton environnement :
+#   pip freeze > requirements.txt
